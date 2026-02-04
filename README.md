@@ -47,7 +47,7 @@ To use this tool as an Antigravity skill, create a new skill directory and a `SK
 1. Create directory: `~/.gemini/antigravity/skills/pdf-reader`
 2. Create `SKILL.md` with the following content:
 
-```markdown
+````markdown
 ---
 name: pdf-reader
 description: Extracts text from PDF files (local or remote). Useful for reading documentation or references in PDF format.
@@ -78,4 +78,4 @@ uvx --from git+https://github.com/HiroshiOkada/dev-pdf-reading-skill pdf-tool ht
 ```bash
 uvx --from git+https://github.com/HiroshiOkada/dev-pdf-reading-skill pdf-tool "C:\path\to\document.pdf" --limit 1000
 ```
-```
+````
